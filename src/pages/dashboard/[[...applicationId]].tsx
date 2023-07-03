@@ -114,7 +114,6 @@ export default function Dashboard({
 
   return (
     <>
-      <pre>{JSON.stringify(application)}</pre>
       <ApplicationPicker
         defaultApplicationId={application.id}
         applications={applicationsList}
